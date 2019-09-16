@@ -26,10 +26,7 @@ function driversByRevenue(drivers){
 
 function driversByName(drivers){
   function compareFunction(a,b){
-    if(a.name > b.name)
-      return 1;
-    else
-      return -1;
+    return a.localeCompare(b);
   }
   return [...drivers].sort(compareFunction);
 }
