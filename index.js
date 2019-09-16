@@ -20,6 +20,6 @@ function driversByRevenue(drivers){
     else
       return -1;
   }
-
-  return drivers.sort(compareFunction);
+  let array = [];
+  return array = drivers.sort(compareFunction);
 }
