@@ -46,6 +46,3 @@ function averageRevenue(drivers){
   };
   return drivers.reduce(driverRevenue, 0);
 }
-
-
-
