@@ -17,6 +17,6 @@ function driversByRevenue(drivers){
   const numberSorter = function (num1, num2) {
     return num1 - num2;
   };
-  primes.sort(drivers);
+  drivers.sort(numberSorter);
 
 }
