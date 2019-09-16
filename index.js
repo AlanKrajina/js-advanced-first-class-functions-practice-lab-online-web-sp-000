@@ -22,3 +22,14 @@ function driversByRevenue(drivers){
   }
   return [...drivers].sort(compareFunction);
 }
+
+
+function driversByName(drivers){
+  function compareFunction(a,b){
+    if(a.name > b.name)
+      return 1;
+    else
+      return -1;
+  }
+  return [...drivers].sort(compareFunction);
+}
