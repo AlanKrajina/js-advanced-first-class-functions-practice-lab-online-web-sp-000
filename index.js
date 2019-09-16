@@ -34,10 +34,10 @@ function driversByName(drivers){
 
 function totalRevenue(drivers){
 
-  const reduceProductPrices = function (agg, el, i, arr) {
+  const driverRevenue = function (agg, el, i, arr) {
     return agg + el.revenue;     // zbroji sve el.price (loop)
   };
 
-  drivers.reduce(stringify, 0);
+  drivers.reduce(driverRevenue, 0);
 
 }
