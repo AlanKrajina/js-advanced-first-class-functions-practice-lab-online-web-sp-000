@@ -21,5 +21,6 @@ function driversByRevenue(drivers){
       return -1;
   }
   let array = [];
-  return array = drivers.sort(compareFunction);
+  array = drivers.sort(compareFunction);
+  return array
 }
