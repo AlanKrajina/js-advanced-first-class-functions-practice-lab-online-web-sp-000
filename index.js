@@ -4,3 +4,7 @@ function logDriverNames(drivers){
   console.log(element.name);
 });
 }
+
+function logDriversByHometown(drivers,location){
+
+}
