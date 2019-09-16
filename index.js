@@ -38,3 +38,14 @@ function totalRevenue(drivers){
   };
   return drivers.reduce(driverRevenue, 0);
 }
+
+
+function averageRevenue(drivers){
+  const driverRevenue = function (agg, el, i, arr) {
+    return agg + el.revenue;
+  };
+  return drivers.reduce(driverRevenue, 0);
+}
+
+
+
