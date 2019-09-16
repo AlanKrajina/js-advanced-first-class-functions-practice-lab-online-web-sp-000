@@ -18,7 +18,7 @@ function driversByRevenue(drivers){
   const numberSorter = function (num1, num2) {
     return num1 - num2;
   };
-  array.push(drivers.sort(numberSorter));
+  array.push(drivers.revenue.sort(numberSorter));
   debugger
   array.forEach(function(element) {
   console.log(element.name);
