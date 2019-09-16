@@ -36,12 +36,12 @@ function totalRevenue(drivers){
 
   const stringify = function (agg, el, i, arr) {
     let stringifiedElement = el.name + ' is $' + el.price + '. ';
-   
 
-   
+
+
     return agg.string + stringifiedElement,
   };
-   
+
   drivers.reduce(stringify, { string: '', totalPrice: 0 });
-  
+
 }
