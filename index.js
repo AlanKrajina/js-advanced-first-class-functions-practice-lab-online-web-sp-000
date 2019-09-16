@@ -14,5 +14,9 @@ function logDriversByHometown(drivers,location){
 }
 
 function driversByRevenue(drivers){
-  drivers.sort();
+  const numberSorter = function (num1, num2) {
+    return num1 - num2;
+  };
+  primes.sort(drivers);
+
 }
