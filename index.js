@@ -21,5 +21,5 @@ function driversByRevenue(drivers){
       return -1;
   }
 
-  drivers.sort(compareFunction);
+  return drivers.sort(compareFunction);
 }
