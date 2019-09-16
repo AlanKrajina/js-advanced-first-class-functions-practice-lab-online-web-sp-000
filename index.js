@@ -30,3 +30,7 @@ function driversByName(drivers){
   }
   return [...drivers].sort(compareFunction);
 }
+
+function totalRevenue(drivers){
+
+}
