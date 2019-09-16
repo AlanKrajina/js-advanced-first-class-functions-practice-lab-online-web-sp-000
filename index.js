@@ -38,6 +38,6 @@ function totalRevenue(drivers){
     return agg + el.revenue;
   };
 
-  drivers.reduce(driverRevenue, 0);
+  return drivers.reduce(driverRevenue, 0);
 
 }
