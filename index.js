@@ -20,6 +20,6 @@ function driversByRevenue(drivers){
     else
       return -1;
   }
-  
+
   drivers.sort(compareFunction);
 }
